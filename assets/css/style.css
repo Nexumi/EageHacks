@@ -1814,8 +1814,31 @@ img.pull-left{
 	  100% {height: 0px;}
 	}
 }
+@media only screen and (max-width: 573px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
 @media only screen and (max-width: 508px) {
-		.showf {
+	.showf {
 	  display: block;
 	  animation-name: expandf;
 	  animation-duration: 0.4s;
@@ -1834,6 +1857,98 @@ img.pull-left{
 	}
 	@keyframes shrinkf {
 	  0% {height: 147px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 506px) {
+	.showa {
+	  display: block;
+	  animation-name: expanda;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expanda {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hidea {
+	  display: block;
+	  animation-name: shrinka;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinka {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 458px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 430px) {
+	.showg {
+	  display: block;
+	  animation-name: expandg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandg {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hideg {
+	  display: block;
+	  animation-name: shrinkg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkg {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 423px) {
+	.showh {
+	  display: block;
+	  animation-name: expandh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandh {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hideh {
+	  display: block;
+	  animation-name: shrinkh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkh {
+	  0% {height: 80px;}
 	  100% {height: 0px;}
 	}
 }
