@@ -3261,3 +3261,950 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     -o-animation-duration: 0.75s;
     animation-duration: 0.75s;
 }
+
+/* ==== Jimmy's Addon (not the prettiest but it works) ==== */
+.showa {
+  display: block;
+  animation-name: expanda;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expanda {
+  0% {height: 0px;}
+  100% {height: 35px;}
+}
+.hidea {
+  display: block;
+  animation-name: shrinka;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinka {
+  0% {height: 35px;}
+  100% {height: 0px;}
+}
+.showb {
+  display: block;
+  animation-name: expandb;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandb {
+  0% {height: 0px;}
+  100% {height: 58px;}
+}
+.hideb {
+  display: block;
+  animation-name: shrinkb;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkb {
+  0% {height: 58px;}
+  100% {height: 0px;}
+}
+.showc {
+  display: block;
+  animation-name: expandc;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandc {
+  0% {height: 0px;}
+  100% {height: 58px;}
+}
+.hidec {
+  display: block;
+  animation-name: shrinkc;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkc {
+  0% {height: 58px;}
+  100% {height: 0px;}
+}
+.showd {
+  display: block;
+  animation-name: expandd;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandd {
+  0% {height: 0px;}
+  100% {height: 35px;}
+}
+.hided {
+  display: block;
+  animation-name: shrinkd;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkd {
+  0% {height: 35px;}
+  100% {height: 0px;}
+}
+.showe {
+  display: block;
+  animation-name: expande;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expande {
+  0% {height: 0px;}
+  100% {height: 35px;}
+}
+.hidee {
+  display: block;
+  animation-name: shrinke;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinke {
+  0% {height: 35px;}
+  100% {height: 0px;}
+}
+.showf {
+  display: block;
+  animation-name: expandf;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandf {
+  0% {height: 0px;}
+  100% {height: 58px;}
+}
+.hidef {
+  display: block;
+  animation-name: shrinkf;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkf {
+  0% {height: 58px;}
+  100% {height: 0px;}
+}
+.showg {
+  display: block;
+  animation-name: expandg;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandg {
+  0% {height: 0px;}
+  100% {height: 35px;}
+}
+.hideg {
+  display: block;
+  animation-name: shrinkg;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkg {
+  0% {height: 35px;}
+  100% {height: 0px;}
+}
+.showh {
+  display: block;
+  animation-name: expandh;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+}
+@keyframes expandh {
+  0% {height: 0px;}
+  100% {height: 35px;}
+}
+.hideh {
+  display: block;
+  animation-name: shrinkh;
+  animation-duration: 0.4s;
+  overflow-y: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes shrinkh {
+  0% {height: 35px;}
+  100% {height: 0px;}
+}
+
+@media only screen and (max-width: 1199px) {
+	.showd {
+	  display: block;
+	  animation-name: expandd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandd {
+	  0% {height: 0px;}
+	  100% {height: 58px;}
+	}
+	.hided {
+	  display: block;
+	  animation-name: shrinkd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkd {
+	  0% {height: 58px;}
+	  100% {height: 0px;}
+	}
+	.showe {
+	  display: block;
+	  animation-name: expande;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expande {
+	  0% {height: 0px;}
+	  100% {height: 58px;}
+	}
+	.hidee {
+	  display: block;
+	  animation-name: shrinke;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinke {
+	  0% {height: 58px;}
+	  100% {height: 0px;}
+	}
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 979px) {
+	.showa {
+	  display: block;
+	  animation-name: expanda;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expanda {
+	  0% {height: 0px;}
+	  100% {height: 58px;}
+	}
+	.hidea {
+	  display: block;
+	  animation-name: shrinka;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinka {
+	  0% {height: 58px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 764px) {
+	.showg {
+	  display: block;
+	  animation-name: expandg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandg {
+	  0% {height: 0px;}
+	  100% {height: 58px;}
+	}
+	.hideg {
+	  display: block;
+	  animation-name: shrinkg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkg {
+	  0% {height: 58px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 759px) {
+	.showh {
+	  display: block;
+	  animation-name: expandh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandh {
+	  0% {height: 0px;}
+	  100% {height: 58px;}
+	}
+	.hideh {
+	  display: block;
+	  animation-name: shrinkh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkh {
+	  0% {height: 58px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 708px) {
+	.showc {
+	  display: block;
+	  animation-name: expandc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandc {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hidec {
+	  display: block;
+	  animation-name: shrinkc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkc {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 621px) {
+	.showd {
+	  display: block;
+	  animation-name: expandd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandd {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hided {
+	  display: block;
+	  animation-name: shrinkd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkd {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 598px) {
+	.showe {
+	  display: block;
+	  animation-name: expande;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expande {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hidee {
+	  display: block;
+	  animation-name: shrinke;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinke {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 588px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 556px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 491px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 145px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 145px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 489px) {
+	.showa {
+	  display: block;
+	  animation-name: expanda;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expanda {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hidea {
+	  display: block;
+	  animation-name: shrinka;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinka {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 488px) {
+	.showc {
+	  display: block;
+	  animation-name: expandc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandc {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hidec {
+	  display: block;
+	  animation-name: shrinkc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkc {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 446px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 441px) {
+	.showe {
+	  display: block;
+	  animation-name: expande;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expande {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hidee {
+	  display: block;
+	  animation-name: shrinke;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinke {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 438px) {
+	.showd {
+	  display: block;
+	  animation-name: expandd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandd {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hided {
+	  display: block;
+	  animation-name: shrinkd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkd {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 419px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 168px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 168px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 418px) {
+	.showg {
+	  display: block;
+	  animation-name: expandg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandg {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hideg {
+	  display: block;
+	  animation-name: shrinkg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkg {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 411px) {
+	.showh {
+	  display: block;
+	  animation-name: expandh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandh {
+	  0% {height: 0px;}
+	  100% {height: 80px;}
+	}
+	.hideh {
+	  display: block;
+	  animation-name: shrinkh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkh {
+	  0% {height: 80px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 388px) {
+	.showc {
+	  display: block;
+	  animation-name: expandc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandc {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hidec {
+	  display: block;
+	  animation-name: shrinkc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkc {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 378px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 190px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 190px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 376px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 145px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 145px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 358px) {
+	.showa {
+	  display: block;
+	  animation-name: expanda;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expanda {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hidea {
+	  display: block;
+	  animation-name: shrinka;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinka {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 350px) {
+	.showe {
+	  display: block;
+	  animation-name: expande;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expande {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hidee {
+	  display: block;
+	  animation-name: shrinke;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinke {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 349px) {
+	.showd {
+	  display: block;
+	  animation-name: expandd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandd {
+	  0% {height: 0px;}
+	  100% {height: 124px;}
+	}
+	.hided {
+	  display: block;
+	  animation-name: shrinkd;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkd {
+	  0% {height: 124px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 334px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 212px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 212px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 328px) {
+	.showc {
+	  display: block;
+	  animation-name: expandc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandc {
+	  0% {height: 0px;}
+	  100% {height: 145px;}
+	}
+	.hidec {
+	  display: block;
+	  animation-name: shrinkc;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkc {
+	  0% {height: 145px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 323px) {
+	.showb {
+	  display: block;
+	  animation-name: expandb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandb {
+	  0% {height: 0px;}
+	  100% {height: 168px;}
+	}
+	.hideb {
+	  display: block;
+	  animation-name: shrinkb;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkb {
+	  0% {height: 168px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 319px) {
+	.showg {
+	  display: block;
+	  animation-name: expandg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandg {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hideg {
+	  display: block;
+	  animation-name: shrinkg;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkg {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 307px) {
+	.showh {
+	  display: block;
+	  animation-name: expandh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandh {
+	  0% {height: 0px;}
+	  100% {height: 102px;}
+	}
+	.hideh {
+	  display: block;
+	  animation-name: shrinkh;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkh {
+	  0% {height: 102px;}
+	  100% {height: 0px;}
+	}
+}
+@media only screen and (max-width: 306px) {
+	.showf {
+	  display: block;
+	  animation-name: expandf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	}
+	@keyframes expandf {
+	  0% {height: 0px;}
+	  100% {height: 233px;}
+	}
+	.hidef {
+	  display: block;
+	  animation-name: shrinkf;
+	  animation-duration: 0.4s;
+	  overflow-y: hidden;
+	  animation-fill-mode: forwards;
+	}
+	@keyframes shrinkf {
+	  0% {height: 233px;}
+	  100% {height: 0px;}
+	}
+}

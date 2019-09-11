@@ -30,7 +30,3 @@ function droph(x) {
   document.getElementById("targeth").classList.toggle("showh");
   document.getElementById("targeth").classList.toggle("hideh");
 }
-function onLinkClick() {
-  document.getElementsById("works").scrollIntoView();
-  // will scroll to 4th h3 element
-}
