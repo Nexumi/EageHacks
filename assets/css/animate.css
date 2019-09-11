@@ -3262,7 +3262,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     animation-duration: 0.75s;
 }
 
-/* ==== Jimmy's Addon (not the prettiest but it works) ==== */
+/* ==== Jimmy's Addon ==== */
 .showa {
   display: block;
   animation-name: expanda;

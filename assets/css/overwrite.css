@@ -72,11 +72,11 @@ a {
 	outline:0;
 	text-decoration: none;
 }
-
+/*
 a:hover {
 	text-decoration: underline;
 }
-
+*/
 
 
 .img-rounded {
@@ -1060,7 +1060,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-link:hover {
   color: #005580;
-  text-decoration: underline;
+  *text-decoration: underline;
   background-color: transparent;
 }
 
