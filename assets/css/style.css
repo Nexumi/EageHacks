@@ -1391,7 +1391,9 @@ img.pull-left{
 	}
 }
 /* === Jimmy's Addon === */
-.eaglefacebook {
+.link {
 	color: #3b5998;
 	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
 }
