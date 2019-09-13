@@ -1397,3 +1397,9 @@ img.pull-left{
 	margin-left: 10px;
 	margin-right: 10px;
 }
+.sponsor {
+	color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: -80px;
+}
