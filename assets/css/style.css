@@ -1401,5 +1401,6 @@ img.pull-left{
 	color: #fff;
 	font-size: 1.3em;
 	text-align: center;
-	margin-top: -80px;
+	line-height: 1em;
+	margin-top: -100px;
 }
