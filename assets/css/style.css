@@ -47,20 +47,6 @@ body {
   background-color: #ffffff;
 }
 
-::-webkit-scrollbar {
-	width: 5px;
-	background-color: black;
-}
-
-::-webkit-scrollbar-thumb {
-	background: rgba(255, 255, 255, 0.6);
-	border-radius: 2.5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background: rgba(255, 255, 255, 0.3);
-}
-
 h7{
   color: white;
   font-size: 25px;
@@ -376,6 +362,7 @@ section#intro {
 	margin:0;
 	padding:240px 0 0 0;
 	/* padding:240px 0 120px; */
+	text-align: center;
 }
 
 @media (min-width: 1024px) {
@@ -393,11 +380,6 @@ section#intro.inner h2 strong  {
 }
 section#intro.inner h2  {
 	font-size:32px;
-}
-
-
-section#intro  {
-	text-align:center;
 }
 
 section#intro i  {
@@ -828,7 +810,7 @@ section#services {
 	margin-bottom:0;
 }
 
-/*========== works ==================*/
+/*========== faq ==================*/
 
 ul.filter {
 	list-style:none;
@@ -1390,9 +1372,75 @@ img.pull-left{
 		line-height:1.5em;
 	}
 }
-/* === Jimmy's Addon === */
+/* === * Jimmy's Addon * === */
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+/* === Itinerary Section === */
+section#itinerary {
+	background: #38B5FE;
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:80px 0 120px 0;
+	/* padding:240px 0 120px; */
+}
+
+@media (min-width: 1024px) {
+	section#itinerary {
+		background-attachment: fixed;
+	}
+}
+
+section#itinerary.inner {
+	padding:140px 0 30px;
+}
+
+section#itinerary.inner h2 strong  {
+	color:#fff;
+}
+section#itinerary.inner h2  {
+	font-size:32px;
+}
+
+
+section#itinerary  {
+	text-align:center;
+}
+
+section#itinerary i  {
+	margin-left:0;
+	text-align:center;
+}
+
+section#itinerary h1  {
+	color:#fff;
+	font-size:64px;
+	font-weight:700;
+	padding-bottom: 20px;
+}
+section#itinerary h2  {
+	color:#ddd;
+	font-size:24px;
+}
+
+/* === Section Addon === */
 .link {
-	color: #3b5998;
+	color: #0af;
 	text-decoration: none;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -1403,4 +1451,7 @@ img.pull-left{
 	text-align: center;
 	line-height: 1em;
 	margin-top: -100px;
+}
+section#faq {
+	padding-top: 80px;
 }
