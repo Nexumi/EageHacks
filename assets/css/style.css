@@ -352,7 +352,9 @@ nav select {
 2. Section: Intro
 ======================================== */
 
-
+section#intro h5 {
+	color: #fff;
+}
 
 section#intro {
 	background: #0b0b0b url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
