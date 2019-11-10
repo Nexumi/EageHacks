@@ -1398,7 +1398,7 @@ section#itinerary {
 	width:100%;
 	height:auto;
 	margin:0;
-	padding:80px 0 120px 0;
+	padding:120px 0 120px 0;
 	/* padding:240px 0 120px; */
 }
 
@@ -1455,7 +1455,7 @@ section#itinerary h2  {
 	margin-top: -100px;
 }
 section#faq {
-	padding-top: 80px;
+	padding-top: 120px;
 }
 .second {
 	margin-left: 60px;
