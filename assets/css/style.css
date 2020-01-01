@@ -1454,6 +1454,11 @@ section#itinerary h2  {
 	line-height: 1em;
 	margin-top: -100px;
 }
+@media (max-width: 399px) {
+	.sponsor {
+		margin-top: -118px;
+	}
+}
 section#faq {
 	padding-top: 120px;
 }
