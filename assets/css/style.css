@@ -357,7 +357,7 @@ section#intro h5 {
 }
 
 section#intro {
-	background: #0b0b0b url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #0b0b0b url(../img/bg/bg-2.jpg) 50% 0 no-repeat;
 	position:relative;
 	width:100%;
 	height:auto;
@@ -780,7 +780,7 @@ ul.the-icons {
 
 /* ================= services ============================ */
 section#services {
-	background: #0b0b0b url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #0b0b0b url(../img/bg/bg-2.jpg) 50% 0 no-repeat;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -1453,6 +1453,11 @@ section#itinerary h2  {
 	text-align: center;
 	line-height: 1em;
 	margin-top: -100px;
+}
+@media (max-width: 767px) {
+	.sponsor {
+		color: #000;
+	}
 }
 @media (max-width: 399px) {
 	.sponsor {
